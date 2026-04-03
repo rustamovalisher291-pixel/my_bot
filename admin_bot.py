@@ -4,7 +4,8 @@ from aiogram import Bot, Dispatcher, types, F
 from aiogram.types import ReplyKeyboardMarkup, KeyboardButton
 from aiogram.filters import Command
 
-API_TOKEN = "..."  # BotFather dan olgan token
+import os
+API_TOKEN = os.getenv("BOT_TOKEN", "")
 
 bot = Bot(token=API_TOKEN)
 dp = Dispatcher()
