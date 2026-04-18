@@ -1,2 +1,0 @@
-git remote add origin https://github.com/rustamovalisher291/my_bot.git
-git config --global user.email "rustamovalisher291@gmail.com"
